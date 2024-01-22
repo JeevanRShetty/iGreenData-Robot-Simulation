@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.toy-robot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toy-robot-display {
+  width: 200px;
+  height: 50px;
+  background-color: #e6f7ff;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #090101;
+}
+
+.command-input {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.output {
+  margin-top: 10px;
+  background-color: #e6f7ff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
